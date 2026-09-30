@@ -31,9 +31,7 @@ The equation is discretized using:
 The resulting scheme is
 
 $$
-u_j^{n+1}
-=
-u_j^n+
+u_j^{n+1}=u_j^n+
 r(u_{j+1}^n-2u_j^n+u_{j-1}^n),
 $$
 
@@ -48,9 +46,7 @@ $$
 The local truncation error satisfies
 
 $$
-\tau_j^n
-=
-O(\Delta t)+O(\Delta x^2),
+\tau_j^n=O(\Delta t)+O(\Delta x^2),
 $$
 
 so the scheme is first-order accurate in time and second-order accurate
